@@ -1,0 +1,43 @@
+/* Style for the game grid table */
+#gameGrid {
+    border-collapse: collapse; /* Collapses the border of table */
+}
+
+/* Style for the cells in the game grid */
+#gameGrid td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd; /* Gives a light grey border */
+    cursor: pointer; /* Changes the cursor when you hover over a cell */
+}
+
+/* Style for a live cell */
+#gameGrid .alive {
+    background-color: #444; /* Gives a dark grey background color */
+}
+
+/* Style for the game control buttons */
+.button {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Changes the cursor when you hover over a button */
+}
+
+/* Color styling for the buttons */
+.start {
+    background-color: #4CAF50;
+    color: white;
+} /* Green */
+
+.stop {
+    background-color: #f44336;
+    color: white;
+} /* Red */
+
+.step {
+    background-color: #e7e7e7;
+    color: black;
+} /* Grey */
