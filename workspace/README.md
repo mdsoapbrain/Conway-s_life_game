@@ -12,6 +12,3 @@ The core classes, functions, and methods necessary for this project are:
 
 6. toggleCellState: This function will be triggered when a cell in the game grid is clicked. It will toggle the state of the corresponding cell in the Model's game state.
 
-Now, let's write the code for each file.
-
-index.html
